@@ -29,3 +29,4 @@ df<-data.frame(x=seq(1:10),y)
 #plot
 ggplot(df)+
   geom_point(aes(x,y),col="blue",alpha=0.5)+geom_smooth(aes(x,y),method = "gam",col="pink",alpha=0.5) 
+ 
