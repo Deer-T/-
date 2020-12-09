@@ -20,3 +20,4 @@ library("ggplot2")
 
 ggplot(df)+geom_histogram(aes(A),fill="red",alpha=0.5)+
   geom_histogram(aes(B),fill="green",alpha=0.5)+xlab("hetero")
+ 
